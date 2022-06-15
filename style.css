@@ -1,3 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: orange;
+    display: FLEX;
+    width: 100%;
+}
+
+.logo-e-titulo{
+    display: flex;
+    align-items: center;
+}
+
+.menu-esquerdo {
+    color: white;
+    display: inline;
+}
+
+.logo {
+    width: 60px;
+    border-radius: 1000px;
+    margin-left: 10PX;
+    margin-right: 10PX;
+}
+
+.menu-direito {
+    margin-top: 20px;
+    display: inline;
+    position: absolute;
+    right: 1px;
+    }
+
+.link-menu {
+    color: darkorange;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+#passar-mouse:hover {
+    background-color: darkorange;
+    color: white;
+
+}
+
 footer{
     display: flex;
     background-color: orange;
@@ -87,4 +139,4 @@ a:active {
         justify-content: center;
     }
     
-}
+
