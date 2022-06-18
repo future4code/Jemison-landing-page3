@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 .primeira-pagina{
     background-image :url(/img/banco-inter2-1024x544.jpg);
     width: 100%;
@@ -42,3 +43,143 @@ h3 {
     display:grid;
     grid-template-rows: 100% 100% 100%
 }
+
+
+header{
+    background-color: orange;
+    display: FLEX;
+    width: 100%;
+}
+
+.logo-e-titulo{
+    display: flex;
+    align-items: center;
+}
+
+.menu-esquerdo {
+    color: white;
+    display: inline;
+}
+
+.logo {
+    width: 60px;
+    border-radius: 1000px;
+    margin-left: 10PX;
+    margin-right: 10PX;
+}
+
+.menu-direito {
+    margin-top: 20px;
+    display: inline;
+    position: absolute;
+    right: 1px;
+    }
+
+.link-menu {
+    color: darkorange;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+#passar-mouse:hover {
+    background-color: darkorange;
+    color: white;
+
+}
+
+footer{
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#alinhamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#nav-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.link-rodape{
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5px;
+    font-size: xx-larger; 
+    
+}
+
+.icone-rede-social{
+    width: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#redes-sociais{
+    display: flex;
+    align-items:flex-end;
+}
+#logo-rodape{
+    width: 150px;
+    border-radius: 1000px;
+    padding: 30px;
+
+}
+#logo-copyright{
+    width: 15px;
+    height: 15px;
+}
+#dados-do-rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#endereco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: medium;
+}
+
+#passa-mouse:hover{
+    border-radius: 5px;
+    background-color: darkorange;
+    font-size: x-large;  
+    text-decoration: underline;
+	 
+}
+a:link, a:visited {
+	text-decoration: none
+}
+
+a:active {
+    text-decoration: none
+}
+
+@media screen and (max-width: 752px) {
+    
+    footer{
+        flex-direction: column;
+    }
+    #endereco{
+        font-size: small;
+    }
+    #redes-sociais{
+        justify-content: center;
+    }
+    
+
+
