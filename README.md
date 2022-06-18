@@ -38,11 +38,9 @@ O desenvolvimento do projeto se deu em três partes (header, main e footer), e a
 Link do surge
 
 ```bash
-<<<<<<< HEAD
-  https://vulgar-wish.surge.sh/
-=======
-  lackadaisical-crib.surge.sh
->>>>>>> 201f012b61552002c13f39e7cc32c404c968c217
+
+  http://clammy-plate.surge.sh
+  
 ```
 
 

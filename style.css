@@ -3,120 +3,6 @@
     padding: 0px;
 }
 
-.titulo{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 20px;
-}
-
-.primeira-pagina{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: space-around;
-    background-image :url(/img/cartaocreditosemanuidade.jpeg);
-    color: white;
-    width: 100%;
-    height: 500px;
-    background-size: 100%;
-    
-}
-
-.apresentacao{
-    margin-right: 50px;
-}
-
-.texto-apresentacao{
-    margin-left: 700px;
-}
-
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 0em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.cpf{
-    color: black;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-color: white;
-    border-radius:15px ;
-    padding: 60px;
-    width: 180px;
-    margin-left: 15px;
-    margin-bottom: 20px;
-    
-}
-.segunda-pagina{
-    display: flex;
-    flex-direction: row;
-    align-items:flex-start;
-    justify-content: space-around;
-    background-image :url(/img/banco-inter-cartao-nova-logo.png);
-    color: white;
-    width: 100%;
-    height: 500px;
-}
-
-.produto{
-    font-size: xx-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    font-weight: bolder;
-    padding: 20px;
-}
-
-.texto-cartao{
-    font-size: x-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    padding: 20px;
-    font-weight: bold;
-    margin-left: 800px;
-}
-.terceira-pagina{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: space-between;
-    background-image :url(/img/entrepreneur-593378_1920.jpg);
-    color: white;
-    width: 100%;
-    height: 500px;
-    background-size: 100%;
-}
-
-.emprestimo{
-    font-size: xx-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    font-weight: bolder;
-    padding: 20px;
-}
-
-.texto-emprestimo{
-    font-size: x-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    padding: 20px;
-    margin-right: 700px;
-}
-.corpo-site{
-    display:grid;
-    grid-template-rows: 100% 100% 100%
-}
-
-
 header{
     background-color: orange;
     display: flex;
@@ -166,6 +52,123 @@ header{
     background-color: darkorange;
     color: white;
 
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+}
+
+.primeira-pagina{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+    background-image :url(/img/cartaocreditosemanuidade.jpeg);
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+    
+}
+
+.apresentacao{
+    margin-right: 50px;
+}
+
+.texto-apresentacao{
+    margin-left: 700px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cpf{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(202, 190, 190);
+    border-color: gray;
+    border-radius:15px ;
+    padding: 60px;
+    width: 180px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border-color: black;
+    border-style: groove;
+    
+}
+
+#fonte-cpf{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+}
+.segunda-pagina{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-around;
+    background-image :url(/img/banco-inter-cartao-nova-logo.png);
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+}
+
+.produto{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.texto-cartao{
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+    margin-left: 800px;
+}
+.terceira-pagina{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    background-image :url(/img/entrepreneur-593378_1920.jpg);
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+}
+
+.emprestimo{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.texto-emprestimo{
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    padding: 20px;
+    margin-right: 700px;
 }
 
 footer{
