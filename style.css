@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-e-titulo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu-esquerdo {
+    color: white;
+    
+}
+
+.logo {
+    width: 60px;
+    border-radius: 1000px;
+    margin-left: 10PX;
+    margin-right: 10PX;
+}
+
+.menu-direito {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.link-menu {
+    color: darkorange;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:medium;
+}
+
+#passar-mouse:hover {
+    background-color: darkorange;
+    color: white;
+
+}
+
+main{
+    display: grid;
+
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+}
+
+.primeira-pagina{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+    background-image :url(/img/cartaocreditosemanuidade.jpeg);
+    color: white;
+    width: 100%;
+    height: 700px;
+    background-size: 100%;
+    
+}
+
+.apresentacao{
+    margin-right: 50px;
+}
+
+.texto-apresentacao{
+    margin-left: 700px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cpf{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(202, 190, 190);
+    border-color: gray;
+    border-radius:15px ;
+    padding: 60px;
+    width: 180px;
+    margin-left: 15px;
+    margin-bottom: 120px;
+    border-color: black;
+    border-style: groove;
+    
+}
+
+#fonte-cpf{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+}
+.segunda-pagina{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    background-image :url(/img/banco-inter-cartao-nova-logo.png);
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+}
+
+.produto{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.texto-cartao{
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+    margin-right: 900px;
+}
+.terceira-pagina{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    background-image :url(/img/entrepreneur-593378_1920.jpg);
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+}
+
+.emprestimo{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.texto-emprestimo{
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    padding: 20px;
+    margin-right: 700px;
+}
+
+footer{
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#alinhamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#nav-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.link-rodape{
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5px;
+    font-size: 20px; 
+    
+}
+
+.icone-rede-social{
+    width: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#redes-sociais{
+    display: flex;
+    align-items:flex-end;
+}
+#logo-rodape{
+    width: 150px;
+    border-radius: 1000px;
+    padding: 30px;
+
+}
+#logo-copyright{
+    width: 15px;
+    height: 15px;
+}
+#dados-do-rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#endereco{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    font-size: medium;
+}
+
+#passa-mouse:hover{
+    border-radius: 5px;
+    background-color: darkorange;
+    font-size: x-large;  
+    text-decoration: underline;
+	
+}
+a:link, a:visited {
+	text-decoration: none
+}
+
+a:active {
+    text-decoration: none
+}
+
+@media screen and (max-width: 752px) {
+
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+    
+    .logo-e-titulo{
+        padding: 10px;
+    }
+
+    .apresentacao{
+        display: flex;
+        font-size: 15px;
+        margin-right: 50px;
+
+    }
+
+    .texto-apresentacao{
+        margin-left: 0px;
+        margin-right: 670px;
+        font-size: 15px;
+    }
+
+    
+    .link-menu{
+        font-size: 10px;
+
+    }
+
+    .primeira-pagina{
+        height: 400px;
+    }
+
+    .texto-cartao{
+        margin-left: 5px;
+        text-align: start;
+        
+    }
+
+    .segunda-pagina{
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+    }
+
+    .cpf{
+        padding: 5px;
+
+    }
+    
+    footer{
+        flex-direction: column;
+    }
+    #endereco{
+        font-size: small;
+    }
+    #redes-sociais{
+        justify-content: center;
+    }
+    
+}
